@@ -1,0 +1,272 @@
+.form-login {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    background: #EEEEEE;
+    width: 400px;
+    box-shadow: 2px 3px 3px #ccc;
+}
+
+.left img {
+    width: 100%;
+}
+
+.title-login {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #EE4D2D;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.list {
+    padding: 0 35px;
+    width: 100%;
+}
+
+.list-item {
+    list-style-type: disclosure-closed;
+    margin-bottom: 12px;
+}
+
+.right {
+    width: 400px;
+    padding: 30px;
+    box-shadow: 2px 3px 3px #ccc;
+}
+
+.function {
+    display: flex;
+}
+
+.function a {
+    color: #000;
+    font-size: 1.8rem;
+    padding: 10px;
+    width: 50%;
+    border-bottom: 1px solid #000;
+}
+
+.function a:hover {
+    opacity: 0.8;
+}
+
+.function .function-register {
+    border-bottom: 1px solid #ccc;
+}
+
+.infor {
+    margin-top: 35px;
+}
+
+.infor input {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px #ccc;
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.forgot-password a {
+    font-size: 1.4rem;
+    color: #EE4D2D;
+}
+
+.forgot-password a:hover {
+    opacity: 0.8;
+}
+
+.btn_login, .btn_createAccount {
+    background-color: #EE4D2D;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.btn_createAccount {
+    margin-top: 20px;
+}
+
+.btn_login, .btn_createAccount {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.btn_login:hover,
+.btn_createAccount:hover {
+    opacity: 0.8;
+}
+
+.commit {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.form-forgotpassword {
+    margin: auto;
+    width: 400px;
+    padding: 20px 10px;
+}
+
+.title-forgotpassword {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title-forgotpassword h4 {
+    font-size: 30px;
+}
+
+.content-forgotpassword {
+    margin-bottom: 20px;
+}
+
+.content-forgotpassword p {
+    font-size: 20px;
+
+}
+
+.email-forgotpassword {
+    margin-bottom: 20px;
+}
+
+.email-forgotpassword span {
+    font-size: 18px;
+
+}
+
+.email-forgotpassword input {
+    padding: 5px 10px;
+    outline: none;
+    width: 60%;
+}
+
+.email-forgotpassword div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-forgotpassword form button {
+    padding: 7px 10px;
+    background-color: #EC1D25;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-color: #EC1D25;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+.form-forgotpassword form button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.third-party-login .or-text {
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.third-party-login .thin-line {
+    background-color: #dbdbdb;
+    flex: 1;
+    height: 1px;
+    width: 100%;
+}
+
+.third-party-login .upercase-text {
+    text-transform: uppercase;
+}
+
+.loginBtn {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px 15px 10px 45px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+}
+
+.loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+}
+
+.loginBtn:focus {
+    outline: none;
+}
+
+.loginBtn:active {
+    box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+.third-party-login .loginBtn--facebook {
+    top: 0;
+    left: -12px;
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-shadow: 0 -1px 0 #354C8C;
+}
+
+.third-party-login .loginBtn--facebook:before {
+    border-right: #364e92 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+
+.third-party-login .loginBtn--facebook:hover,
+.third-party-login .loginBtn--facebook:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+.loginBtn--google {
+    margin-top: 20px;
+    top: -40px;
+    transform: translate(0px, 4px);
+    transition: none 0s ease 0s;
+    font-family: "Roboto", Roboto, arial, sans-serif;
+    background: #DD4B39;
+}
+
+.loginBtn--google:before {
+    border-right: #BB3F30 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+}
+
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+    background: #E74B37;
+}

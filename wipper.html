@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+          integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <style>
+    .slick-slide {
+      float: left;
+      width: calc((100% - 80px) / 4); /* Adjust 80px as needed */
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+
+    .slick-slide p {
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="title">
+  <span>Kham pha moi thu</span>
+</div>
+<div class="carousel">
+  <div class="box">
+    <img src="E:\WebProject2024\src\main\webapp\assets\images\product_img\DK003(2).png" alt="">
+    <p>Text 1</p>
+  </div>
+  <div class="box">
+    <img src="E:\WebProject2024\src\main\webapp\assets\images\product_img\DK004(2).png" alt="">
+    <p>Text number 2</p>
+  </div>
+  <div class="box">
+    <p>Another text 3</p>
+
+  </div>
+  <div class="box">
+    <p>A long long long long text 4</p>
+  </div>
+  <div class="box">
+    <p>Smaller text 5</p>
+  </div>
+  <div class="box">
+    <p>txt 6</p>
+  </div>
+  <div class="box">
+    <p>Smaller text 11</p>
+  </div>
+  <div class="box">
+    <p>txt 12</p>
+  </div>
+  <div class="box">
+    <p>Text 13</p>
+  </div>
+  <div class="box">
+    <p>Text number 14</p>
+  </div>
+  <div class="box">
+    <p>Another text 15</p>
+
+  </div>
+  <div class="box">
+    <p>A long long long text 16</p>
+  </div>
+  <div class="box">
+    <p>Smaller text 17</p>
+  </div>
+  <div class="box">
+    <p>txt 18</p>
+  </div>
+  <div class="box">
+    <p>Text 19</p>
+  </div>
+  <div class="box">
+    <p>Text number 20</p>
+  </div>
+  <div class="box">
+    <p>Another text 21</p>
+
+  </div>
+  <div class="box">
+    <p>A long long long txt 22</p>
+  </div>
+  <div class="box">
+    <p>Smaller text 23</p>
+  </div>
+  <div class="box">
+    <p>txt 24</p>
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  $(function() {
+    $('.carousel').slick({
+      infinite: false,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+
+  
+  </script>
+</body>
+</html>
